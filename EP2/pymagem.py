@@ -100,7 +100,6 @@ class Pymagem:
                 auxi += 1
         return clone
 
-
 img1 = Pymagem(4, 5)
 img2 = Pymagem(3, 3, 88)
 
