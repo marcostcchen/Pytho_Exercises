@@ -50,8 +50,7 @@ class Pymagem:
     '''
 
     # escreva aqui os métodos da classe Pymagem
-
-    def __init__(self, nlins, ncols, valor = 0):
+    def __init__(self, nlins, ncols, valor=0):
         self.nlins = nlins
         self.ncols = ncols
         self.valor = valor
@@ -64,10 +63,16 @@ class Pymagem:
         s = str()
         for i in range(self.nlins):
             for j in range(self.ncols):
-                if j == self.ncols - 1:
-                    s += '%d\n'%(self.Matrix[i][j])
+                if type(self.Matrix[0][0]) == int:
+                    if j == self.ncols - 1:
+                        s += '%d\n' % (self.Matrix[i][j])
+                    else:
+                        s += '%d, ' % (self.Matrix[i][j])
                 else:
-                    s += '%d, '%(self.Matrix[i][j])
+                    if j == self.ncols - 1:
+                        s += '%.1f\n' % (self.Matrix[i][j])
+                    else:
+                        s += '%.1f, ' % (self.Matrix[i][j])
         return s
 
     def size(self):
@@ -78,6 +83,61 @@ class Pymagem:
 
     def put(self, lin, col, value):
         self.Matrix[lin][col] = value
+
+    def crop(self, tlx=0, tly=0, brx=-1, bry=-1):
+        if brx == -1 and bry == -1 and tlx == 0 and tly == 0:
+            clone = Pymagem(self.nlins, self.ncols)
+            for i in range(self.nlins):
+                for j in range(self.ncols):
+                    clone.Matrix[i] = self.Matrix[i][:]
+        else:
+            clone = Pymagem(brx - tlx, bry - tly)
+            auxi, auxj = 0, 0
+            for i in range(tlx, brx):
+                auxj = 0
+                for j in range(tly, bry):
+                    clone.Matrix[auxi][auxj] = self.Matrix[i][j]
+                    auxj += 1
+                auxi += 1
+        return clone
+
+    def __add__(self, other):
+        res = Pymagem(self.nlins, self.ncols)
+        for i in range (self.nlins):
+            for j in range (self.ncols):
+                res.Matrix[i][j] = self.Matrix[i][j] + other.Matrix[i][j]
+        return res
+
+    def __mul__(self, alfa):
+        res = Pymagem(self.nlins, self.ncols)
+        for i in range (self.nlins):
+            for j in range (self.ncols):
+                res.Matrix[i][j] = self.Matrix[i][j]*alfa
+        return res
+
+    def paste (self, other, tlin, tcol):
+        linha = tlin
+        for i in range (other.nlins):
+            coluna = tcol
+            for j in range (other.ncols):
+                self.Matrix[linha][coluna] = other.Matrix[i][j]
+                coluna += 1
+            linha += 1
+
+    def pinte_disco (self, lin, col , raio, val):
+        for i in range (self.nlins):
+            for j in range(self.ncols):
+                dist = (lin - i)*(lin - i) + (col - j)*(col - j)
+                if dist < raio*raio :
+                    self.Matrix[i][j] = val
+
+    def pinte_retangulo (self, TLx, TLy, BRx, BRy, val):
+        for i in range(TLx, BRx):
+            for j in range(TLy, BRy):
+                self.Matrix[i][j] = val
+
+    def get_mat(self):
+        return self.Matrix
 
     def crop(self, tlx = 0, tly = 0, brx = -1, bry = -1):
         if brx == -1 and bry == -1 and tly == 0 and tlx == 0:
@@ -99,4 +159,3 @@ class Pymagem:
                     auxj += 1
                 auxi += 1
         return clone
-

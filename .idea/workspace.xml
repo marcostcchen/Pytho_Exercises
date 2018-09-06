@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db325edf-f7d6-4ce6-aace-731459518e59" name="Default Changelist" comment="" />
+    <list default="true" id="db325edf-f7d6-4ce6-aace-731459518e59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dicionario/DicioBB.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dicionario/dicionario.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dicionario/text.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EP3/pymagem.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EP4/gera_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EP4/pilutil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EP4/pymagem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP1/imutil.py" beforeDir="false" afterPath="$PROJECT_DIR$/EP1/imutil.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EP2/pymagem.py" beforeDir="false" afterPath="$PROJECT_DIR$/EP2/pymagem.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,37 +24,44 @@
     <session id="-1574119523">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.106" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="3" />
+          <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="45" />
-          <entry key="py" value="7358" />
+          <entry key="py" value="18695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="45" />
-          <entry key="Python" value="7358" />
+          <entry key="Python" value="18695" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="38" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="38" />
         </counts>
       </usages-collector>
     </session>
@@ -50,24 +69,72 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EP4/gera_video.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2431">
+              <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EP3/pymagem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="986">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EP2/pymagem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="698">
+              <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EP1/imutil.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+            <state relative-caret-position="2312">
+              <caret line="136" selection-start-line="136" selection-end-line="142" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Dicionario/dicionario.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="52">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
-                <marker date="1534703815227" expanded="true" signature="5322:5405" ph="..." />
+                <marker date="1536266367286" expanded="true" signature="481:487" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EP2/pymagem.py">
+        <entry file="file://$PROJECT_DIR$/Dicionario/DicioBB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="324">
+              <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
               <folding>
-                <marker date="1534710453581" expanded="true" signature="1894:1900" ph="..." />
+                <marker date="1536268099053" expanded="true" signature="706:1024" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EP4/pilutil.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +150,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Pycharm" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -94,22 +161,35 @@
         <option value="$PROJECT_DIR$/Harmonico com classes/main.py" />
         <option value="$PROJECT_DIR$/EP1/main.py" />
         <option value="$PROJECT_DIR$/BemFormada/BemFormada.py" />
+        <option value="$PROJECT_DIR$/pymagem.py" />
+        <option value="$PROJECT_DIR$/testeEp1.py" />
+        <option value="$PROJECT_DIR$/EP3/pymagem.py" />
+        <option value="$PROJECT_DIR$/EP4/pilutil.py" />
+        <option value="$PROJECT_DIR$/teste.py" />
         <option value="$PROJECT_DIR$/EP1/imutil.py" />
         <option value="$PROJECT_DIR$/EP2/pymagem.py" />
+        <option value="$PROJECT_DIR$/EP4/pymagem.py" />
+        <option value="$PROJECT_DIR$/EP4/gera_video.py" />
+        <option value="$PROJECT_DIR$/Dicionario/dicionario.py" />
+        <option value="$PROJECT_DIR$/Dicionario/DicioBB.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="978" />
-    <option name="height" value="1039" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="765" />
+    <option name="y" value="-15" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +200,7 @@
             <path>
               <item name="Exercicio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Exercicio" type="462c0819:PsiDirectoryNode" />
-              <item name="EP1" type="462c0819:PsiDirectoryNode" />
+              <item name="Dicionario" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Exercicio" type="b2602c69:ProjectViewProjectNode" />
@@ -131,11 +211,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -154,8 +233,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pymagem">
-    <configuration name="BemFormada" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DicioBB">
+    <configuration name="DicioBB" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,11 +242,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BemFormada" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dicionario" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BemFormada/BemFormada.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dicionario/DicioBB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -176,7 +255,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="imutil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dicionario" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,11 +263,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Dicionario" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EP1/imutil.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Dicionario/dicionario.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -197,7 +276,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gera_video" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,11 +284,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EP4" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EP1/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EP4/gera_video.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,38 +318,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Doctests in imutil" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Exercicio" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EP1/imutil.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teste.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.Doctests in imutil" />
-      <item itemvalue="Python.imutil" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.BemFormada" />
       <item itemvalue="Python.pymagem" />
+      <item itemvalue="Python.gera_video" />
+      <item itemvalue="Python.teste" />
+      <item itemvalue="Python.dicionario" />
+      <item itemvalue="Python.DicioBB" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DicioBB" />
+        <item itemvalue="Python.dicionario" />
+        <item itemvalue="Python.gera_video" />
         <item itemvalue="Python.pymagem" />
-        <item itemvalue="Python.imutil" />
-        <item itemvalue="Python.BemFormada" />
-        <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python tests.Doctests in imutil" />
+        <item itemvalue="Python.teste" />
       </list>
     </recent_temporary>
   </component>
@@ -297,24 +379,30 @@
     <history-entry file="Doctests_in_imutil - 2018.08.14 at 18h 57m 54s.xml">
       <configuration name="Doctests in imutil" configurationId="tests" />
     </history-entry>
+    <history-entry file="Doctests_in_testeEp1 - 2018.08.28 at 14h 06m 36s.xml">
+      <configuration name="Doctests in testeEp1" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Doctests_in_testeEp1 - 2018.08.28 at 14h 07m 55s.xml">
+      <configuration name="Doctests in testeEp1" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15860215" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11037674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25968435" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865592" visible="true" weight="0.25531915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39858156" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013441" side_tool="true" weight="0.33428982" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -383,28 +471,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <marker date="1534510259077" expanded="true" signature="19:619" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pymagem.py" />
+    <entry file="file://$PROJECT_DIR$/testeEp1.py" />
+    <entry file="file://$PROJECT_DIR$/teste.py" />
+    <entry file="file://$PROJECT_DIR$/Dicionario/text.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EP4/pymagem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="133" column="34" selection-start-line="133" selection-start-column="34" selection-end-line="133" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EP4/gera_video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2431">
+          <caret line="147" column="26" selection-start-line="147" selection-start-column="26" selection-end-line="147" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EP3/pymagem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EP1/imutil.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="140" column="9" lean-forward="true" selection-start-line="140" selection-start-column="9" selection-end-line="140" selection-end-column="9" />
+        <state relative-caret-position="2312">
+          <caret line="136" selection-start-line="136" selection-end-line="142" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EP4/pilutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1534703815227" expanded="true" signature="5322:5405" ph="..." />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EP2/pymagem.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="101" lean-forward="true" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="698">
+          <caret line="96" column="38" selection-start-line="96" selection-start-column="38" selection-end-line="96" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dicionario/dicionario.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
-            <marker date="1534710453581" expanded="true" signature="1894:1900" ph="..." />
+            <marker date="1536266367286" expanded="true" signature="481:487" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dicionario/DicioBB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="62" column="21" lean-forward="true" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+          <folding>
+            <marker date="1536268099053" expanded="true" signature="706:1024" ph="..." />
           </folding>
         </state>
       </provider>

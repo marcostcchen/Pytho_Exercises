@@ -94,24 +94,7 @@ def copie_imagem(dest, orig):
 
 #--------------------------------------------------------------------------
 def clone_imagem(imagem):
-    ''' (list) -> list
 
-    Recebe uma imagem e retorna uma cópia/clone da imagem
-
-    Exemplo:
-    # >>> t = [[12, -122, 3],[1, 2, 3]]
-    # >>> tt = clone_imagem(t)
-    # >>> t
-    # [[12, -122, 3], [1, 2, 3]]
-    # >>> tt
-    # [[12, -122, 3], [1, 2, 3]]
-    # >>> tt[0][0] = 111111
-    # >>> t
-    # [[12, -122, 3], [1, 2, 3]]
-    # >>> tt
-    # [[111111, -122, 3], [1, 2, 3]]
-    # >>>
-    # '''
     matriz = [[0 for x in range(len(imagem[0]))] for y in range(len(imagem))]
     for i in range(len(imagem[0]) - 1):
         matriz[i] = imagem[i][:]
