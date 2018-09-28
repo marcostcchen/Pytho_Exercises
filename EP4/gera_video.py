@@ -142,8 +142,6 @@ def main():
         if j == 0:
             numero_bolas = random.randint(7, 15)
             for i in range (numero_bolas):
-                cor = []
-                cor.append(253)
                 raio.append(random.randint(3, 10))
                 centrox.append(random.randint(raio[i], ALTURA - raio[i]))
                 centroy.append(random.randint(raio[i], LARGURA - raio[i]))
