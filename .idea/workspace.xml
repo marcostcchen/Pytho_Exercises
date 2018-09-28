@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db325edf-f7d6-4ce6-aace-731459518e59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/EP5/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EP5/percolation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EP6/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EP6/percolation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EP6/percolation_stats.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EP7/markov_model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EP4/gera_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/EP4/gera_video.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +14,7 @@
     <session id="-1574119523">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="26" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.106" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -44,12 +37,12 @@
         <counts>
           <entry key="dummy" value="45" />
           <entry key="py" value="31070" />
-          <entry key="txt" value="20" />
+          <entry key="txt" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="65" />
+          <entry key="PLAIN_TEXT" value="70" />
           <entry key="Python" value="31070" />
         </counts>
       </usages-collector>
@@ -72,7 +65,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EP7/markov_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
+            <state relative-caret-position="394">
               <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
               <folding>
                 <marker date="1538150600694" expanded="true" signature="1713:1714" ph="..." />
@@ -317,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1536268398872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Atualizacao dia 6/9">
+      <created>1538150615932</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538150615932</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,7 +355,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865592" visible="true" weight="0.25681493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865592" weight="0.25681493" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39716312" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -393,7 +393,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Atualizacao dia 6/9" />
-    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao dia 6/9" />
+    <MESSAGE value="Atualizacao dia 28/09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualizacao dia 28/09" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -557,7 +558,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EP7/markov_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
+        <state relative-caret-position="394">
           <caret line="109" column="22" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
           <folding>
             <marker date="1538150600694" expanded="true" signature="1713:1714" ph="..." />
